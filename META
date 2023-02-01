@@ -1,9 +1,12 @@
 # OASIS_START
-# DO NOT EDIT (digest: c99182d1d1a44864cc732449409e5d49)
-version = "20120615"
-description = "Parsing of command line arguments (similar to GNU GetOpt) for OCaml"
+# DO NOT EDIT (digest: 8c8cf62178ea989949567e98ce2788ca)
+version = "20230201"
+description =
+"Parsing of command line arguments (similar to GNU GetOpt) for OCaml"
 archive(byte) = "getopt.cma"
+archive(byte, plugin) = "getopt.cma"
 archive(native) = "getopt.cmxa"
+archive(native, plugin) = "getopt.cmxs"
 exists_if = "getopt.cma"
 # OASIS_STOP
 
