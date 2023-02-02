@@ -100,7 +100,7 @@ let set var value = Some (fun () -> var := value)
 
 let append lst = Some (fun x  -> lst := !lst@[x])
 
-let incr var = Some (fun () -> Pervasives.incr var)
+let incr var = Some (fun () -> Stdlib.incr var)
 
 let atmost_once var exc = Some (fun x -> if !var="" then var := x else raise exc)
 
