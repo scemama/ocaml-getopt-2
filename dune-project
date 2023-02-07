@@ -9,7 +9,7 @@
 
 (authors "Alain Frisch")
 
-(maintainers "Anthony Scemama")
+(maintainers "Alain Frisch")
 
 (license MIT)
 
